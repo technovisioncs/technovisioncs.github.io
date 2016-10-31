@@ -945,11 +945,12 @@ form.news-letter .btn:hover{
 @media screen and (max-width: 768px){
 	.section-title{
 	
-		font-size:30px;
+		font-size:20px;
 	}
+
 	.section-name
 	{
-		margin-top: 95px;
+		margin-top: 100px;
 	}
 	#contact-form #first_name{
 		border-right:1px solid #fff;
