@@ -947,6 +947,10 @@ form.news-letter .btn:hover{
 	
 		font-size:30px;
 	}
+	.section-name
+	{
+		margin-top: 30px;
+	}
 	#contact-form #first_name{
 		border-right:1px solid #fff;
 	}
