@@ -1,0 +1,75 @@
+body
+{
+
+	background-color: black;
+	  margin: 0;
+	  color :white;
+}
+
+.tagline
+{
+
+	color :#d9ac26 ;
+	font-size: 20px;
+}
+#h2
+{
+font-family: 'Passion One', cursive;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:300;
+	font-size:8.5rem;	
+	color : #d9ac26	;
+
+	/*margin-bottom: 100px;*/
+}
+
+
+
+/* left side menu css */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #d9ac26;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    text-decoration: none;
+}
+
+.prize
+{
+	font-size: 2.2rem;
+}
+
+.eventdesc
+{
+
+	font-size: 1.8rem;
+}
+
+.eventheading
+{
+font-size: 4.5rem;
+
+}
