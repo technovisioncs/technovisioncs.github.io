@@ -876,22 +876,15 @@ a:focus{
 		font-size:18px;
 	}
 
+#page-top h2
+{
+	font-size:33px;
+}
 	.section-name
 	{
 		margin-top: 100px;
 	}
-	#contact-form #first_name{
-		border-right:1px solid #fff;
-	}
-	#contact-form #subject{
-		border-top:0px solid transparent;
-	}
-	#contact-form  #email{
-		border-right:1px solid #fff;
-	}
-		#contact-form  .btn{
-	border-left:1px solid #fff;
-	}
+	
 }
 
 /* 9.2 - media screen and (max-width: 768px) End
