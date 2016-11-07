@@ -82,11 +82,11 @@ font-size: 4.5rem;
 }
 
 
-/*link template css*/
+/*link template css for events*/
 
 
-#serviceswrap {
-    background: url(../images/codemania.jpg) no-repeat center top;
+#servicewrap {
+   
     margin-top: -10px;
     padding-top: 20px;
     text-align: center;
@@ -103,17 +103,41 @@ font-size: 4.5rem;
     -o-background-size: cover;
     background-size: cover;
 }
-#serviceswrap h2 {
+#servicewrap h2 {
     color: white;
     font-size: 50px;
     font-weight: 400;
     letter-spacing: 2px;
     margin-top: 150px;
 }
-.mt {
-    padding-top: 25px;
+
+.bc
+{
+     background: url(../images/codemania.jpg) no-repeat center top;
 }
 
+.gd
+{
+    background: url(../images/gd.jpg)  center top;
+
+}
+.tt
+{
+background: url(../images/tthunt-bg.jpg) no-repeat center top;
+}
+.tw
+{
+background: url(../images/tw-bg.png) no-repeat center top;
+}
+.jm
+{
+    background: url(../images/jam-bg.jpeg) no-repeat center top;
+}
+
+.ln
+{
+    background: url(../images/ln-bg.jpg) no-repeat center top;
+}
 
 
 
@@ -302,6 +326,9 @@ margin: auto;
 }
 
 /* dynamic tab css end */
+
+
+
 
 
 
