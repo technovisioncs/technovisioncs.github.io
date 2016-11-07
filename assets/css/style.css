@@ -71,6 +71,12 @@ a:focus{
 .container{
 	overflow:hidden;
 }
+
+
+.icon-pos span{
+
+
+}
 .section-name{
 	font-weight:700;
 	text-align:center;
@@ -708,72 +714,6 @@ a:focus{
 
 
 
-/* 6 - Subscribe Section
----------------------------------------------------------------------- */
-
-/*form.news-letter{
-	max-width:550px;
-	margin:auto;
-	height:60px;
-	margin-top:70px;
-	position:relative;
-}
-form.news-letter .form-control{
-	height:60px;
-	padding-right:75px;
-}
-form.news-letter .btn{
-	width:60px;
-	height:60px;
-	border:1px solid #fff;
-	position:absolute;
-	top:0;
-	right:0;
-	font-size:25px;
-}
-
-form.news-letter .btn:hover{
-	color:#3498db;
-}
-#subscribe-loading {
-	display: none;
-	line-height: 45px;
-	cursor: inherit;
-}
-#subscribe-loading:hover{
-	color: inherit;
-}
-.subscribe-message{
-	text-align: center;
-	font-size: 1.125em;
-}
-
-.alert-warning{
-	color: #ffffff;
-	position: absolute;
-	background: rgba(52, 152, 219,1);
-	display: none;
-	left: 25px;
-	bottom:60px;
-	padding: 5px 10px;
-	border-radius: 3px;
-}
-.alert-warning:after{
-	position: absolute;
-	content: "";
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 12px;
-	border-color: rgba(52, 152, 219,1) transparent  transparent transparent;
-	left: 25px;
-	bottom: -24px;
-}*/
-/* 6 - Subscribe Section End 
----------------------------------------------------------------------- */
-
-
-
 
 /* 7 - Contact Section
 ---------------------------------------------------------------------- */
@@ -933,7 +873,7 @@ form.news-letter .btn:hover{
 @media screen and (max-width: 768px){
 	.section-title{
 	
-		font-size:20px;
+		font-size:18px;
 	}
 
 	.section-name
@@ -1187,6 +1127,11 @@ background: #00aaff;
 
 
 
+/* - Preloader End
+---------------------------------------------------------------------- */
+
+
+
 /* front/back animation css code */
 
 
@@ -1348,8 +1293,8 @@ ul.topnav li.right {float: right;}
 
 	.navbar{
 
-
-font-family: 'Press Start 2P', cursive;
+/*
+font-family: 'Press Start 2P', cursive;*/
 color : gold;
 	font-size:15px;
 	background-color:black;
@@ -1365,14 +1310,14 @@ color : gold;
 
 	.scrollable
 	{
-	margin-right: 75px;
+	margin-right:150px;
 	color: gold;
 
 	}
 
 #h2
 {
-font-family: 'Passion One', cursive;
+/*font-family: 'Passion One', cursive;*/
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
@@ -1486,4 +1431,11 @@ padding-bottom: 50px;
 p
 {
 	color: white;
+}
+
+
+/* contact section circles */
+
+.card-image{
+	margin: 40px;
 }
