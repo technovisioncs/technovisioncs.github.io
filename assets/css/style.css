@@ -158,7 +158,7 @@ a:focus{
 
 /* 2.1 - Next Section
 ------------------------------------------ */
-.next-section{
+.	{
 	text-align:center;
 }
 .next-section a{
@@ -717,7 +717,7 @@ a:focus{
 
 /* 7 - Contact Section
 ---------------------------------------------------------------------- */
-#contact .next-section a{
+/*#contact .next-section a{
 
 	-webkit-transform:rotate(180deg);
 	   -moz-transform:rotate(180deg);
@@ -808,7 +808,7 @@ a:focus{
 	text-align: center;
 	font-size: 1.125em;
 }
-
+*/
 /* 7 - Contact Section End 
 ---------------------------------------------------------------------- */
 
@@ -1286,8 +1286,8 @@ ul.topnav li.right {float: right;}
 
 	.navbar{
 
-/*
-font-family: 'Press Start 2P', cursive;*/
+
+font-family: 'Press Start 2P', cursive;
 color : gold;
 	font-size:15px;
 	background-color:black;
@@ -1303,14 +1303,14 @@ color : gold;
 
 	.scrollable
 	{
-	margin-right:150px;
+	margin-right:120px;
 	color: gold;
 
 	}
 
 #h2
 {
-/*font-family: 'Passion One', cursive;*/
+font-family: 'Passion One', cursive;
 	text-align:center;
 	text-transform:uppercase;
 	font-weight:300;
