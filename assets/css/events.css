@@ -87,12 +87,12 @@ font-size: 4.5rem;
 
 #servicewrap {
    
-    margin-top: -10px;
+    margin-top: 0px;
     padding-top: 20px;
     text-align: center;
     background-attachment: relative;
     background-position: center center;
-    min-height: 500px;
+    min-height: 550px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -111,14 +111,14 @@ font-size: 4.5rem;
     margin-top: 150px;
 }
 
-.bc
+.ct
 {
-     background: url(../images/codemania.jpg) no-repeat center top;
+     background: url(../images/code1.jpg) no-repeat center top;
 }
 
 .gd
 {
-    background: url(../images/gd.jpg)  center top;
+    background: url(../images/gd.jpg) no-repeat center top;
 
 }
 .tt
@@ -127,17 +127,30 @@ background: url(../images/tthunt-bg.jpg) no-repeat center top;
 }
 .tw
 {
-background: url(../images/tw-bg.png) no-repeat center top;
+background: url(../images/tw-bg.jpg) no-repeat center top;
+
+}
+.techworm
+{
+    background: url(../images/tw-bg.png) no-repeat center top;
 }
 .jm
 {
-    background: url(../images/jam-bg.jpeg) no-repeat center top;
+    background: url(../images/jam-bg.jpg) no-repeat center top;
 }
 
 .ln
 {
-    background: url(../images/ln-bg.jpg) no-repeat center top;
+
+    background: url(../images/lan.jpg) no-repeat center top;
 }
+
+.sr
+{
+
+    background: url(../images/slow-bg.jpg) no-repeat center top;
+}
+
 
 
 
@@ -332,206 +345,10 @@ margin: auto;
 
 /* LAN events CSS */
 
-
-
-
-/*Page one */
-.pageOne{
-  
-background: url("../images/ln-bg.jpg") no-repeat center fixed;
- 
-
- font-family: 'Bitter', serif;
-background-size: cover;
-height : 700px;
-  
-}
-
-/*.logo
+.tab-content img
 {
-    width: 40px;
+    padding-bottom: 50px;
 }
-*/
-/*.profile
-{
-  padding-top : 150px;
-  margin-left : auto;
-  margin-right : auto;
-  
-}*/
-
- .pageOne h1{
-  padding-top: 0px;
-  margin-top: 50px;
-  font-weight: 900;
-  color :#d9ac26;
-  font-size: 80px;
-}
-
-.pageOne h3
-{
-  font-weight: bold;
-  color :white;
-}
-
-
-
-.b
-{
-  font-weight : bold;
-  margin-left: 0px;
-  color : black;
-}
-
-
-
-/* Opacity #2 */
-.hover12 figure {
-    background: #d9ac26;
-}
-.hover12 figure img {
-    opacity: 1;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
-.hover12 figure:hover img {
-    opacity: .7;
-}
-
-.hover12 div span {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    z-index: -1;
-    display: block;
-    width: 300px;
-    margin: 0;
-    padding: 0;
-    color: #d9ac26;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    opacity: 0;
-}
-
-figure:hover+span {
-    bottom: -36px;
-    opacity: 1;
-}
-
-
-
-
-@media screen and (max-width: 768px){
-    .pageOne{
-        width:830px;
-    }
-
-    .pageOne h1
-    {
-         font-size: 30px;
-    }
-    
-}
-
-
-
-/* Page Two */
-.pageTwo{
-  
-  background : url("../images/fifa-bg.jpg") no-repeat center center fixed;
-  font-family: 'Bitter', serif;
- height : 800px;
-  background-size : cover;
-}
-
-.pageTwo h2
-{
-  
-   padding: 50px;
-  margin-top: 0px;
-  font-weight: 900;
-  color :white ;
-  font-size: 80px;
-}
-
-
-.note p
-{
- margin-top: 30px; 
-font-size: 30px;
-padding-left : 60px;
-  padding-right:60px;
-  color :lavender; 
- margin-left : 20px;
-  
-  text-align : center; 
-}
-
-/*Page three */
-.pageThree{
-  
-  background : url("https://s31.postimg.org/sui0a7ap7/image.jpg") no-repeat center center fixed;
-  font-family: 'Bitter', serif;
- height : 800px;
-  background-size : cover;
-  
-}
-
-.pageThree h2
-{
-   padding: 50px;
-  margin-top: 0px;
-  font-weight: 900;
-  color : white ;
-  font-size: 80px;
-}
-
-.placeholder-item
-{
-  margin-left : 10px;
-  margin-top : 100px;
-  
-}
-
-.placeholder-desc
-{
-  font-size : 25px;
-  font-weight : 900 ;
-   
-  color : white;
-}
-
-.two
-{
-  padding-top: 55px;
-}
-
-/*Contact page */
-
-.pageFour{
-    
-    background : url("https://s25.postimg.org/49gjxmbn3/image.jpg") no-repeat center center fixed;
-    
- height : 900px;
-  background-size : cover;
-  font-family: 'Bitter', serif;
-
-}
-.pageFour p 
-{
-     font-family: 'Bitter', serif;
-  font-size : 55px;
-  padding-top : 90px;
-  color : white;
-}
-
-
-
-
-
 
 /*LAN event css end */
 
