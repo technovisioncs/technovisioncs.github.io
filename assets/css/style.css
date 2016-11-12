@@ -871,6 +871,10 @@ a:focus{
 
 
 @media screen and (max-width: 768px){
+
+
+
+
 	.section-title{
 	
 		font-size:18px;
@@ -1432,3 +1436,5 @@ p
 .card-image{
 	margin: 40px;
 }
+
+
