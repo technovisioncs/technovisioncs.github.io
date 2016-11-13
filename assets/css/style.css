@@ -161,6 +161,14 @@ a:focus{
 .	{
 	text-align:center;
 }
+
+.next-section{
+
+	margin : 0 auto;
+	width: 120px;
+}
+
+
 .next-section a{
 	cursor:pointer;
 	display:inline-block;
@@ -175,7 +183,7 @@ a:focus{
 
 	background-color:rgba(0,0,0,.2);
 	box-shadow: 0 0 1px rgba(255,255,255,.2);
-	margin:70px;
+	margin: 70px 0;
 	padding-top:45px;
 	position:relative;
 }
@@ -205,6 +213,23 @@ a:focus{
 	     -o-transition:all .25s;
 	        transition:all .25s;
 }
+
+
+.next-section .go-to-page-top span{
+
+
+border : 2px solid gold;
+border-bottom-color : transparent;
+border-right-color: transparent; 
+
+
+}
+.next-section .go-to-page-top a{
+
+height: 40px;
+
+}
+
 .next-section a:hover span{
 
 	opacity:1;
@@ -1201,6 +1226,7 @@ width: 150px;
 .front {
   z-index: 2;
   background-color: #d9ac26	;
+/*background: url(../images/tw-bg.jpg) no-repeat center top;*/
   color: black;
 }
 /* back side */
