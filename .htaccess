@@ -2,7 +2,9 @@
 /*
 Hi, well from what i can think of is to create .htaccess to leverage browser caching.
 
-For example expires headers - they reduce the need to download same files from the server twice, plus reduces number of http requests
+2 ways: both should be done in ur .htaccess file (like on hosting usually they always have that file)
+
+1)For example expires headers - they reduce the need to download same files from the server twice, plus reduces number of http requests
 
 checked the speed thorough https://tools.pingdom.com/
 
@@ -53,5 +55,17 @@ ExpiresByType text/css "access...."
 u need to decide on which files u wanna have the expiration on usually its images,js and css
 
 </IfModule>
+
+*/
+
+2)
+Gzip - basically compresses all files into zip and unzips it in user's browser
+
+/*
+
+to enable it :
+#compress text,html,javascript,css :
+AddOutputFilterByType DEFLATE text/html 
+........ etc etc etc
 
 */
