@@ -1,5 +1,32 @@
 
 /*
-Hi, well from what i can think of is to create .htaccess to leverage browser caching
+Hi, well from what i can think of is to create .htaccess to leverage browser caching.
+
+For example expires headers - they reduce the need to download same files from the server twice, plus reduces number of http requests
+
+checked the speed thorough https://tools.pingdom.com/
+
+The following cacheable resources have a short freshness lifetime. Specify an expiration at least one week in the future for the following resources:
+https://technovisioncs.github.io/assets/css/bootstrap.min.css
+https://technovisioncs.github.io/assets/css/font-awesome.min.css
+https://technovisioncs.github.io/assets/css/partical-animation.css
+https://technovisioncs.github.io/assets/css/style.css
+https://technovisioncs.github.io/assets/images/loading.gif
+https://technovisioncs.github.io/assets/images/pattern.png
+https://technovisioncs.github.io/assets/js/functions.js
+https://technovisioncs.github.io/assets/js/jquery-2.1.0.min.js
+https://technovisioncs.github.io/assets/js/jquery.ajaxchimp.min.js
+https://technovisioncs.github.io/assets/js/modernizr-2.8.0.min.js
+https://technovisioncs.github.io/assets/js/partical-animation.js
+https://technovisioncs.github.io/assets/js/particles.min.js
+https://technovisioncs.github.io/assets/js/plugins.js
+https://technovisioncs.github.io/images/icon.gif
+https://technovisioncs.github.io/images/team/niraj.gif
+https://technovisioncs.github.io/images/team/shreya_cp01.png
+https://technovisioncs.github.io/images/team/shruti.gif
+https://fonts.googleapis.com/css?family=PT+Sans+Narrow
+https://fonts.googleapis.com/css?family=Passion+One
+https://fonts.googleapis.com/css?family=Press+Start+2P
+
 
 */
