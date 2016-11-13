@@ -2,10 +2,10 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 82,
+      "value": 50,
       "density": {
-        "enable": false,
-        "value_area": 2565.459297384834
+        "enable": true,
+        "value_area": 473.4885849793636
       }
     },
     "color": {
@@ -14,11 +14,11 @@ particlesJS("particles-js", {
     "shape": {
       "type": "circle",
       "stroke": {
-        "width": 1,
+        "width": 0,
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 3
       },
       "image": {
         "src": "img/github.svg",
@@ -27,7 +27,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.8498083922587263,
       "random": false,
       "anim": {
         "enable": false,
@@ -37,27 +37,27 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 3,
+      "value": 5,
       "random": true,
       "anim": {
         "enable": false,
-        "speed": 31.671011279752488,
+        "speed": 40,
         "size_min": 0.1,
         "sync": false
       }
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 112.2388442605865,
       "color": "#ffffff",
-      "opacity": 0.4,
-      "width": 1
+      "opacity": 0.28059711065146625,
+      "width": 0.9620472365193128
     },
     "move": {
       "enable": true,
-      "speed": 6,
-      "direction": "none",
-      "random": false,
+      "speed": 3.5,
+      "direction": "top",
+      "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
@@ -73,17 +73,17 @@ particlesJS("particles-js", {
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "push"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 400,
+        "distance": 85.26810729164131,
         "line_linked": {
           "opacity": 1
         }
