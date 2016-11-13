@@ -30,3 +30,28 @@ https://fonts.googleapis.com/css?family=Press+Start+2P
 
 
 */
+
+
+/*
+
+can be done like :
+
+<IfModule mod_expires.c>
+# Enable expirations
+ExpiresActive On
+#Default directive
+ExpiresDefault "idk access plus 3 months"
+#Icon
+ExpiresByType image/icon "access plus ....."
+#Images
+ExpiresByType image/jpg "access plus...."
+....... image/png and etc etc
+
+#CSS
+ExpiresByType text/css "access...."
+
+u need to decide on which files u wanna have the expiration on usually its images,js and css
+
+</IfModule>
+
+*/
