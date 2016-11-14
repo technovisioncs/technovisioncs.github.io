@@ -1,33 +1,27 @@
-body
-{
-
+body {
 	background: black;
-	  margin: 0;
-      color: white;
-	
+	margin: 0;
+	color: white;
 }
 
-.tagline
-{
-
-	color :#d9ac26 ;
+.tagline {
+	color: #d9ac26;
 	font-size: 20px;
 }
-#h2
-{
-font-family: 'Passion One', cursive;
-	text-align:center;
-	text-transform:uppercase;
-	font-weight:300;
-	font-size:8.5rem;	
-	color : #d9ac26	;
 
+#h2 {
+	font-family: 'Passion One', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 8.5rem;
+	color: #d9ac26;
 	/*margin-bottom: 100px;*/
 }
 
 
-
 /* left side menu css */
+
 
 /*ul {
     list-style-type: none;
@@ -58,343 +52,329 @@ li a:hover:not(.active) {
     text-decoration: none;
 }*/
 
-.prize
-{
+.prize {
 	font-size: 2.2rem;
 }
 
-.eventdesc
-{
-
+.eventdesc {
 	font-size: 1.8rem;
 }
 
-.eventheading
-{
-font-size: 4.5rem;
-
+.eventheading {
+	font-size: 4.5rem;
 }
 
-
-.register
-{
-    color: white;
+.register {
+	color: white;
 }
 
 
 /*link template css for events*/
 
-
 #servicewrap {
-   
-    margin-top: 0px;
-    padding-top: 20px;
-    text-align: center;
-    background-attachment: relative;
-    background-position: center center;
-    min-height: 550px;
-    width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	margin-top: 0px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
+
 #servicewrap h2 {
-    color: white;
-    font-size: 50px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    margin-top: 150px;
+	color: white;
+	font-size: 50px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 150px;
 }
 
-.ct
-{
-     background: url(../images/code1.jpg) no-repeat center top;
-
-     background-size: cover;
-  
-  width: 100%;
-  height: 100%;
- 
+.ct {
+	background: url(../images/code1.jpg) no-repeat center top;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
 }
 
-.gd
-{
-    background: url(../images/gd.jpg) no-repeat center top;
-
-}
-.tt
-{
-background: url(../images/tthunt-bg.jpg) no-repeat center top;
-}
-.tw
-{
-background: url(../images/tw-bg.jpg) no-repeat center top;
-
-}
-.techworm
-{
-    background: url(../images/tw-bg.png) no-repeat center top;
-}
-.jm
-{
-    background: url(../images/jam-bg.jpg) no-repeat center top;
+.gd {
+	background: url(../images/gd.jpg) no-repeat center top;
 }
 
-.ln
-{
-
-    background: url(../images/lan.jpg) no-repeat center top;
+.tt {
+	background: url(../images/tthunt-bg.jpg) no-repeat center top;
 }
 
-.sr
-{
-
-    background: url(../images/slow-bg.jpg) no-repeat center top;
+.tw {
+	background: url(../images/tw-bg.jpg) no-repeat center top;
 }
 
+.techworm {
+	background: url(../images/tw-bg.png) no-repeat center top;
+}
 
+.jm {
+	background: url(../images/jam-bg.jpg) no-repeat center top;
+}
 
+.ln {
+	background: url(../images/lan.jpg) no-repeat center top;
+}
+
+.sr {
+	background: url(../images/slow-bg.jpg) no-repeat center top;
+}
 
 
 /*menu bar css */
 
-
 .menu {
-    position: fixed;
-    right: -200px;
-    width: 260px;
-    height: 100%;
-    top: 0;
-    z-index: 10;
-    text-align: left;
+	position: fixed;
+	right: -200px;
+	width: 260px;
+	height: 100%;
+	top: 0;
+	z-index: 10;
+	text-align: left;
 }
+
 .menu.menu-open {
-    right: 0;
+	right: 0;
 }
+
 .menu-wrap {
-    position: absolute;
-    top: 0;
-    left: 60px;
-    background: #1a1a1a;
-    width: 200px;
-    height: 100%}
+	position: absolute;
+	top: 0;
+	left: 60px;
+	background: #1a1a1a;
+	width: 200px;
+	height: 100%
+}
+
 .menu h1.logo a {
-    font-family: Raleway, Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: .15em;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: #fff;
-    margin-top: 20px;
+	font-family: Raleway, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 800;
+	letter-spacing: .15em;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 20px;
 }
+
 .menu h1.logo a:hover {
-    color: #d9ac26;
+	color: #d9ac26;
 }
+
 .menu img.logo {
-    margin: 20px 0;
-    max-width: 160px;
+	margin: 20px 0;
+	max-width: 160px;
 }
+
 .menu a {
-    margin-left: 20px;
-    color: gray;
-    display: block;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: .1em;
-    text-transform: uppercase;
+	margin-left: 20px;
+	color: gray;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 40px;
+	letter-spacing: .1em;
+	text-transform: uppercase;
 }
+
 .menu a:hover {
-    color: #d9ac26;
+	color: #d9ac26;
 }
+
 .menu a:active {
-    color: #fff;
+	color: #fff;
 }
+
 .menu a>i {
-    float: left;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: left;
-    width: 25px;
-    font-size: 14px;
-    line-height: 40px;
-    margin: 25px 2px;
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 25px;
+	font-size: 14px;
+	line-height: 40px;
+	margin: 25px 2px;
 }
+
 .menu-close {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    font-size: 14px;
-    color: gray;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    top: 20px;
-    right: 5px;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+	font-size: 14px;
+	color: gray;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	top: 20px;
+	right: 5px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
+
 .menu-close:hover {
-    color: #d9ac26;
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+	color: #d9ac26;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
+
 .body-push {
-    overflow-x: hidden;
-    position: relative;
-    left: 0;
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
 }
+
 .body-push-toright {
-    left: 200px;
+	left: 200px;
 }
+
 .body-push-toleft {
-    left: -200px;
+	left: -200px;
 }
-.menu, .body-push {
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
+
+.menu,
+.body-push {
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
 }
+
 #menuToggle {
-    position: absolute;
-    top: 20px;
-    left: 0;
-    z-index: 11;
-    display: block;
-    text-align: center;
-    font-size: 14px;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    cursor: pointer;
-    background: rgba(0, 0, 0, .25);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 11;
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	background: rgba(0, 0, 0, .25);
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
+
 #menuToggle:hover {
-    color: #d9ac26;
-    background: rgba(0, 0, 0, .2);
-    -webkit-transition: all .1s ease-in-out;
-    -moz-transition: all .1s ease-in-out;
-    -ms-transition: all .1s ease-in-out;
-    -o-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
+	color: #d9ac26;
+	background: rgba(0, 0, 0, .2);
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
 }
+
 
 /*menu bar css end */
 
 
-
 /* dynamic tab css */
 
-#dynamictab
-{
-    padding-top: 30px;
+#dynamictab {
+	padding-top: 30px;
 }
 
-.tab-content p
-{
-    font-size: 20px;
+.tab-content p {
+	font-size: 20px;
 }
 
-
-.tab-content h3
-{
-    font-weight: bold;
-    font-size: 30px;
+.tab-content h3 {
+	font-weight: bold;
+	font-size: 30px;
 }
 
-.tab-content strong
-{
-    text-decoration: underline;
+.tab-content strong {
+	text-decoration: underline;
 }
 
-#rulelist
-{
-    font-size: 20px;
+#rulelist {
+	font-size: 20px;
 }
 
-.tabheading{
-    font-size: 20px;
-   color: #d9ac26;
-   font-weight: bold;
+.tabheading {
+	font-size: 20px;
+	color: #d9ac26;
+	font-weight: bold;
 }
 
-a.regbtn
-{
-margin: auto;
-
+a.regbtn {
+	margin: auto;
 }
+
 
 /* dynamic tab css end */
 
 
-
-
 /* LAN events CSS */
 
-.tab-content img
-{
-    padding-bottom: 50px;
+.tab-content img {
+	padding-bottom: 50px;
 }
+
 
 /*LAN event css end */
 
 
-
-
-
 /* 8 - Footer Section  
 ---------------------------------------------------------------------- */
-#footer-section{
-    width: 100%;
-    min-height: 80px;
-    background-color: black;
-}
-#footer-section p{
-    margin: 0;
-    padding: 25px 15px; 
-    text-align: center;
-    line-height: 30px;
-    color: #1a1a1a;
-}
-#footer-section p a{
-    color: #3498db;
+
+#footer-section {
+	width: 100%;
+	min-height: 80px;
+	background-color: black;
 }
 
+#footer-section p {
+	margin: 0;
+	padding: 25px 15px;
+	text-align: center;
+	line-height: 30px;
+	color: #1a1a1a;
+}
 
-#footer-text
-{
-    color :gold;
-    text-decoration: none;
+#footer-section p a {
+	color: #3498db;
 }
-a#footer-text
-{
-    color :gold;
-    text-decoration: none;
+
+#footer-text {
+	color: gold;
+	text-decoration: none;
 }
-#footer1-text
-{
-color : white;
+
+a#footer-text {
+	color: gold;
+	text-decoration: none;
 }
+
+#footer1-text {
+	color: white;
+}
+
 
 /* 8 - Footer Section End 
 ---------------------------------------------------------------------- */
