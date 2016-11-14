@@ -73,11 +73,12 @@ li a:hover:not(.active) {
 
 #servicewrap {
 	margin-top: 0px;
-	padding-top: 20px;
+	/*padding-top: 20px;*/
+
 	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 550px;
+	/*min-height: 550px;*/
 	width: 100%;
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
@@ -97,40 +98,7 @@ li a:hover:not(.active) {
 	margin-top: 150px;
 }
 
-.ct {
-	background: url(../images/code1.jpg) no-repeat center top;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-}
 
-.gd {
-	background: url(../images/gd.jpg) no-repeat center top;
-}
-
-.tt {
-	background: url(../images/tthunt-bg.jpg) no-repeat center top;
-}
-
-.tw {
-	background: url(../images/tw-bg.jpg) no-repeat center top;
-}
-
-.techworm {
-	background: url(../images/tw-bg.png) no-repeat center top;
-}
-
-.jm {
-	background: url(../images/jam-bg.jpg) no-repeat center top;
-}
-
-.ln {
-	background: url(../images/lan.jpg) no-repeat center top;
-}
-
-.sr {
-	background: url(../images/slow-bg.jpg) no-repeat center top;
-}
 
 
 /*menu bar css */
