@@ -283,6 +283,7 @@ a:focus {
 
 .social-btn-box:hover {
 	border-color: transparent;
+	z-index: 100; /* added by @sorinr */
 }
 
 .social-btn-box .facebook-btn:hover {
@@ -487,7 +488,6 @@ a:focus {
 		float:none !important;
 	}
 }*/
-
 
 /* 3 - Main Menu End 
 ---------------------------------------------------------------------- */
@@ -915,10 +915,12 @@ a:focus {
 		font-size: 18px;
 	}
 	#page-top h2 {
-		font-size: 33px;
+		/*font-size: 33px;*/
+		font-size: 3.5em;
 	}
 	.section-name {
-		margin-top: 100px;
+		/*margin-top: 100px;*/
+		margin-top: 5vh;
 	}
 }
 
