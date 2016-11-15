@@ -903,6 +903,8 @@ a:focus {
 }
 
 
+
+
 /* 9.1 - media screen and (max-width: 992px)  End
 ------------------------------------------------ */
 
@@ -912,8 +914,11 @@ a:focus {
 
 @media screen and (max-width: 768px) {
 	.section-title {
-		font-size: 18px;
+		font-size: 2em;
 	}
+	 #aboutdesc {
+        font-size: 1.2em;
+    }
 	#page-top h2 {
 		/*font-size: 33px;*/
 		font-size: 3.5em;
