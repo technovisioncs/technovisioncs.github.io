@@ -31,24 +31,79 @@
     <script src="assets/js/html5shiv.js"></script>
     <![endif]-->
 
-    <!-- navigation bar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <!-- navigation bar old -->
+    <!-- <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
 
         <ul id="ul" class="nav navbar-nav navbar-right topnav">
           <li id="li"><a href="#page-top" class="scrollable">Home</a></li>
           <li id="li"><a href="#about" class="scrollable">About</a></li>
-          <li id="li"><a href="#events" class=" scrollable ">Events</a></li>
+          <li id="li"><a href="#events" class=" scrollable ">Events</a></li> -->
           <!-- <li id="li"><a href="#gallery" class="scrollable">Gallery</a></li> -->
-          <li id="li"><a href="#contact" class="scrollable">Contact</a></li>
-
-        </ul>
+         <!--  <li id="li"><a href="#contact" class="scrollable">Contact</a></li> -->
+  
+             <!--  <button class="mobilemenu">&#8801;</button>
+            <button class="cross">&#735;</button> -->
+        <!-- </ul>
       </div>
-    </nav>
-    <!--Navigation bar end-->
+    </nav> -->
+    <!--Navigation bar old end-->
+
+<!-- <header>
+
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="#page-top"><li>Home</li></a>
+    <a href="#about"><li>About</li></a>
+    <a href="#events"><li>Events</li></a>
+    <a href="#contact"><li>Contact</li></a>
+    
+  </ul>
+</div>  -->
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#main-nav" data-offset="50">
+
+   
+    <!-- new nav by @sorinr-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="main-navigation">
+          <ul class="nav navbar-nav navbar-right topnav">
+                <li><a href="#page-top" class="scrollable">Home</a></li>
+                <li><a href="#about" class="scrollable">About</a></li>
+                <li><a href="#events" class="scrollable">Events</a></li>
+                <li><a href="#contact" class="scrollable">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!-- end new nav -->
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Preloader -->
     <div id="preloader">
@@ -73,7 +128,7 @@
       <div id="particles-js"> </div>
       <div class="pattern height-resize">
         <div class="container">
-          <h3 class="section-name img-responsive">
+          <h3 class="section-name">
               <span>
                 <img src="images/icon.gif" alt="logo" 	height="300" width = "390" class="img-responsive" />
               </span>
@@ -486,6 +541,8 @@
 
     <!-- jQuery Library -->
     <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
+    <!-- Bootstrap.js  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Modernizr js -->
     <script type="text/javascript" src="assets/js/modernizr-2.8.0.min.js"></script>
     <!-- Plugins -->
@@ -494,6 +551,8 @@
     <script type="text/javascript" src="assets/js/functions.js"></script>
     <!-- Custom JavaScript Functions -->
     <script type="text/javascript" src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <!-- Main.js  -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
 
     <!-- [ PARTICLE SCRIPT ] -->
     <script src="assets/js/particles.min.js"></script>
