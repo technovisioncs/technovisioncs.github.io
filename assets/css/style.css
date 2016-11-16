@@ -1482,3 +1482,92 @@ p {
 .card-image {
 	margin: 40px;
 }
+
+
+
+/* added for events section */
+.sr-card-container {
+	background: #fff;
+    height: 300px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+
+}
+.sr-card-title{
+	position: relative;
+	color: #000;
+	background: #d9ac26;
+	height: 80px;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.sr-card-title h2 {
+  	position: absolute;
+	width: 100%
+}
+.sr-card-info {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	height: 170px;
+	
+
+}
+.sr-card-info p {
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 1.2em;
+	text-align: center;
+
+}
+.sr-card-container hr {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.sr-card-action {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	height: 50px;
+	background: #000; 
+
+}
+
+.sr-card-action a:hover{
+	background-color: #fff;
+}
+
+#ct{
+	background: url("../images/code1-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#gd{
+	background: url("../images/gdbg-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#th{
+	background: url("../images/tthunt-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#jm{
+	background: url("../images/jam-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#ln{
+	background: url("../images/lan-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#techworm{
+	background: url("../images/techworm-blur.png") no-repeat center;
+	background-size: cover;
+}
+#tw{
+	background: url("../images/twister-blur.jpg") no-repeat center;
+	background-size: cover;
+}
+#sr{
+	background: url("../images/slow-blur.jpg") no-repeat center;
+	background-size: cover;
+}
