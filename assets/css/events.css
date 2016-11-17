@@ -300,10 +300,83 @@ a.regbtn {
 
 /* LAN events CSS */
 
-.tab-content img {
+.tab img {
 	padding-bottom: 50px;
 }
 
+/* added for lan.html */
+.hero {
+	margin-bottom: 20px;
+}
+.game {
+	margin-bottom: 20px;
+}
+.game .lan-info-v1 {
+	position: absolute;
+	bottom: 30px;
+	right: 15px;
+	width: 100%;
+	height: 50px;
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 20px;
+	background: rgba(0,0,0,.7);
+}
+.game .lan-info-v1 a{
+	text-decoration: none;
+	color: #d9ac26;
+}
+
+/*.game .lan-info-v2 {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	height: 50px;
+	width: 50px;
+	font-size: 1.2em;
+	font-weight: 500;
+	line-height: 50px;
+	background: rgba(217, 172, 38,.9);
+	text-align: center;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px #111;
+}
+.game .lan-info-v2 a{
+	text-decoration: none;
+	color: #fff;
+}*/
+
+/* overlay info panels */
+#mm-panel, #cs-panel, #fifa-panel {
+	  width: 0;
+	  height: 100%;
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+	  z-index: 999;
+	  background: #111;
+	  overflow-x: hidden;
+	  transition: 0.5s;
+}
+.closebtn {
+	position: absolute;
+	text-decoration: none;
+	color: #d9ac26;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+	z-index: 999;
+}
+.closebtn:hover {
+	text-decoration: none;
+	color: #d9ac26;
+}
+#mm:hover, #cs:hover, #fifa:hover {
+	cursor: pointer;
+}
 
 /*LAN event css end */
 
