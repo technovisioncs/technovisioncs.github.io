@@ -61,8 +61,8 @@ jQuery(document).ready(function($) {
     $('.next-section .go-to-events').click(function() {
       $('html,body').animate({scrollTop:$('#events').offset().top}, 1000);
     });
-    $('.next-section .go-to-gallery').click(function() {
-      $('html,body').animate({scrollTop:$('#gallery').offset().top}, 1000);
+    $('.next-section .go-to-sponsors').click(function() {
+      $('html,body').animate({scrollTop:$('#sponsors').offset().top}, 1000);
     });
     $('.next-section .go-to-contact').click(function() {
       $('html,body').animate({scrollTop:$('#contact').offset().top}, 1000);
